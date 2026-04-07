@@ -1,0 +1,14 @@
+# Obsidian workspace local (configurações de janela, painéis abertos)
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+
+# Cache do Obsidian
+.obsidian/cache
+
+# Plugins que geram dados locais
+.obsidian/plugins/obsidian-git/data.json
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+desktop.ini
