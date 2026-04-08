@@ -1,0 +1,12 @@
+{
+  "servers": {
+    "obsidian": {
+      "command": "npx",
+      "args": [
+        "-y",
+        "mcp-obsidian",
+        "C:\\Users\\Admin\\Documents\\second-brain"
+      ]
+    }
+  }
+}
