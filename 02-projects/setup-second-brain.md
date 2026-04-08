@@ -70,7 +70,7 @@ O navegador nunca larga o volante — delega a execução, não o raciocínio.
 | MCP (mcp-obsidian) | Ponte entre IA e vault | ✅ Configurado |
 | Gitea (local) | Backup automático na rede local | ✅ Ativo |
 | GitHub (privado) | Acesso remoto ao vault para a IA | ✅ Ativo |
-| Obsidian Git | Sync automático vault → Gitea | ⏳ Pendente |
+| Obsidian Git | Sync automático vault → Gitea | ✅ Ativo |
 
 ## Estrutura do vault
 
@@ -97,7 +97,7 @@ Captura (inbox) → Processamento (notes) → Conexão (links) → Arquivo
 
 ## Próximos passos
 
-- [ ] Configurar Obsidian Git para sync automático com Gitea
+- [x] Configurar Obsidian Git para sync automático com Gitea
 - [ ] Instalar plugin Templater no Obsidian
 - [ ] Instalar plugin Dataview no Obsidian
 - [ ] Criar primeira daily note
