@@ -44,12 +44,12 @@ Um agente é tão bom quanto os prompts que o definem. Criar um agente antes de 
 
 ### Níveis de uso de IA (panorama geral)
 
-| Nível | Descrição | Status |
-|---|---|---|
-| 🟢 Nível 1 | IA no editor — autocomplete, geração de funções | Base |
-| 🟡 Nível 2 | IA como par de programação — arquitetura, decisões técnicas | Base |
-| 🟠 Nível 3 | Automação de tarefas repetitivas — testes, docs, scripts | Meta intermediária |
-| 🔴 Nível 4 | Agentes e fluxos autônomos — múltiplos passos, integrações | Objetivo final |
+| Nível      | Descrição                                                   | Status             |
+| ---------- | ----------------------------------------------------------- | ------------------ |
+| 🟢 Nível 1 | IA no editor — autocomplete, geração de funções             | Base               |
+| 🟡 Nível 2 | IA como par de programação — arquitetura, decisões técnicas | Base               |
+| 🟠 Nível 3 | Automação de tarefas repetitivas — testes, docs, scripts    | Meta intermediária |
+| 🔴 Nível 4 | Agentes e fluxos autônomos — múltiplos passos, integrações  | Objetivo final     |
 
 ## Modelo de trabalho: Navegador / Piloto
 
