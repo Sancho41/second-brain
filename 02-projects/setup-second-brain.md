@@ -13,6 +13,53 @@ Construir um sistema pessoal de gestão de conhecimento (second brain) integrado
 ## Contexto
 Jornada iniciada em 08/04/2026 via GitHub Copilot Chat. O usuário aprende melhor na prática e quer focar no aprendizado, delegando o trabalho técnico para a IA.
 
+Perfil do usuário:
+- Programador com domínio principal em Kotlin, aberto a multistack
+- Usa VS Code e JetBrains
+- Objetivo: atingir nível 4 (agentes autônomos) sem pular os fundamentos
+- Aprende melhor na prática
+- Quer delegar execução técnica para a IA e focar no raciocínio
+
+## Jornada de aprendizado — 3 Fases
+
+```
+FASE 1 — Fundação (1~2 semanas)        ← você está aqui
+  ├── Engenharia de prompt
+  ├── System prompts e personas
+  └── Seu primeiro "prompt versionado"
+
+FASE 2 — Ferramentas (1~2 semanas)
+  ├── Copilot / Cursor no dia a dia
+  ├── MCP — o que é, como conectar
+  └── Obsidian como base de conhecimento com MCP
+
+FASE 3 — Agentes (quando a base estiver sólida)
+  ├── Primeiro agente simples (uma tarefa, um objetivo)
+  ├── Orquestração entre agentes
+  └── CI/CD de prompts
+```
+
+### Por que essa ordem?
+Um agente é tão bom quanto os prompts que o definem. Criar um agente antes de entender prompts é como configurar um GPS antes de saber ler um mapa — funciona até o dia que ele te manda para o lugar errado.
+
+### Níveis de uso de IA (panorama geral)
+
+| Nível | Descrição | Status |
+|---|---|---|
+| 🟢 Nível 1 | IA no editor — autocomplete, geração de funções | Base |
+| 🟡 Nível 2 | IA como par de programação — arquitetura, decisões técnicas | Base |
+| 🟠 Nível 3 | Automação de tarefas repetitivas — testes, docs, scripts | Meta intermediária |
+| 🔴 Nível 4 | Agentes e fluxos autônomos — múltiplos passos, integrações | Objetivo final |
+
+## Modelo de trabalho: Navegador / Piloto
+
+| Papel | Quem | O que faz |
+|---|---|---|
+| 🧭 Navegador | Você | Pensa, decide, direciona, revisa |
+| ✈️ Piloto | IA | Executa, escreve, gera, sugere |
+
+O navegador nunca larga o volante — delega a execução, não o raciocínio.
+
 ## Stack configurada
 
 | Ferramenta | Função | Status |
@@ -23,7 +70,7 @@ Jornada iniciada em 08/04/2026 via GitHub Copilot Chat. O usuário aprende melho
 | MCP (mcp-obsidian) | Ponte entre IA e vault | ✅ Configurado |
 | Gitea (local) | Backup automático na rede local | ✅ Ativo |
 | GitHub (privado) | Acesso remoto ao vault para a IA | ✅ Ativo |
-| Obsidian Git | Sync automático vault → Gitea | ⏳ Pendente configurar |
+| Obsidian Git | Sync automático vault → Gitea | ⏳ Pendente |
 
 ## Estrutura do vault
 
@@ -54,7 +101,8 @@ Captura (inbox) → Processamento (notes) → Conexão (links) → Arquivo
 - [ ] Instalar plugin Templater no Obsidian
 - [ ] Instalar plugin Dataview no Obsidian
 - [ ] Criar primeira daily note
-- [ ] Criar primeiro prompt salvo em 03-resources/prompts
+- [ ] Criar primeiro prompt versionado em 03-resources/prompts
+- [ ] Iniciar Fase 1 — engenharia de prompt e system prompts
 
 ## Como continuar essa jornada em outra interface
 
@@ -69,6 +117,7 @@ A IA vai ter todo o contexto necessário sem precisar da conversa original.
 ## Decisões tomadas
 
 - **Por que não Copilot CLI?** — Não suporta MCP, é stateless por natureza
-- **Por que GitHub (privado) além do Gitea?** — Gitea é local, IA remota não acessa. GitHub permite que a IA leia e edite o vault diretamente
+- **Por que GitHub além do Gitea?** — Gitea é local, IA remota não acessa. GitHub permite que a IA leia e edite o vault diretamente
 - **Por que VS Code como host MCP?** — Suporte nativo a MCP, Copilot já integrado, vault aberto como workspace dá contexto automático
 - **Por que estrutura numerada (00, 01...)?** — Garante ordem visual no Obsidian independente do sistema operacional
+- **Por que aprender prompts antes de agentes?** — Agente mal configurado replica os mesmos problemas de um prompt ruim, só que em escala
